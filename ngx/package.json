@@ -10,7 +10,7 @@
     "type": "git",
     "url": "https://github.com/Management-AND-Computer-Consultants/IONIC-NATIVE-DYNAMIC-SPLASHSCREEN.git"
   },
-  "name": "@ionic-native/splash-screen-dynamic",
+  "name": "@management-and-computer-consultants/splash-screen-dynamic",
   "dependencies": {
     "@types/cordova": "latest"
   },
