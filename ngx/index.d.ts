@@ -27,7 +27,8 @@ export declare class SplashScreen extends IonicNativePlugin {
      * Hides the splashscreen
      */
     hide(): void;
-    dynamic(): void;
+    goldDynamic(): void;
+    silverDynamic(): void;
     static ɵfac: ɵngcc0.ɵɵFactoryDeclaration<SplashScreen, never>;
     static ɵprov: ɵngcc0.ɵɵInjectableDeclaration<SplashScreen>;
 }

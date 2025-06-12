@@ -13,7 +13,8 @@ var SplashScreen = /** @class */ (function (_super) {
     }
     SplashScreen.prototype.show = function () { return core.cordova(this, "show", { "sync": true }, arguments); };
     SplashScreen.prototype.hide = function () { return core.cordova(this, "hide", { "sync": true }, arguments); };
-    SplashScreen.prototype.dynamic = function () { return core.cordova(this, "dynamic", { "sync": true }, arguments); };
+    SplashScreen.prototype.goldDynamic = function () { return core.cordova(this, "goldDynamic", { "sync": true }, arguments); };
+    SplashScreen.prototype.silverDynamic = function () { return core.cordova(this, "silverDynamic", { "sync": true }, arguments); };
     SplashScreen.pluginName = "SplashScreen";
     SplashScreen.plugin = "cordova-plugin-splashscreen";
     SplashScreen.pluginRef = "navigator.splashscreen";

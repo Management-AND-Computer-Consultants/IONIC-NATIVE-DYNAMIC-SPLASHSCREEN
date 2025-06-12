@@ -26,7 +26,8 @@ export declare class SplashScreenOriginal extends IonicNativePlugin {
      * Hides the splashscreen
      */
     hide(): void;
-    dynamic(): void;
+    goldDynamic(): void;
+    silverDynamic(): void;
 }
 
 export declare const SplashScreen: SplashScreenOriginal;
