@@ -5,8 +5,9 @@
 # Splash Screen
 
 ```
-$ ionic cordova plugin add cordova-plugin-splashscreen
-$ npm install @ionic-native/splash-screen-dynamic
+$ ionic cordova plugin add @management-and-computer-consultants/cordova-plugin-splashscreen
+$ npm install @management-and-computer-consultants/splash-screen-dynamic
+npm i @management-and-computer-consultants/splash-screen-dynamic
 ```
 
 ## [Usage Documentation](https://ionicframework.com/docs/native/splash-screen/)

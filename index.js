@@ -19,7 +19,8 @@ var SplashScreenOriginal = /** @class */ (function (_super) {
     }
     SplashScreenOriginal.prototype.show = function () { return cordova(this, "show", { "sync": true }, arguments); };
     SplashScreenOriginal.prototype.hide = function () { return cordova(this, "hide", { "sync": true }, arguments); };
-    SplashScreenOriginal.prototype.dynamic = function () { return cordova(this, "dynamic", { "sync": true }, arguments); };
+    SplashScreenOriginal.prototype.goldDynamic = function () { return cordova(this, "goldDynamic", { "sync": true }, arguments); };
+    SplashScreenOriginal.prototype.silverDynamic = function () { return cordova(this, "silverDynamic", { "sync": true }, arguments); };
     SplashScreenOriginal.pluginName = "SplashScreen";
     SplashScreenOriginal.plugin = "cordova-plugin-splashscreen";
     SplashScreenOriginal.pluginRef = "navigator.splashscreen";
